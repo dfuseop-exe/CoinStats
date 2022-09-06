@@ -41,7 +41,7 @@ function Banner() {
               fontFamily: "Montserrat",
             }}
           >
-            CoinStats
+            Coinstats
           </Typography>
           <Typography
             variant="subtitle2"
