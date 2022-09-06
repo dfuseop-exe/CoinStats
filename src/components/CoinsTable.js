@@ -35,7 +35,7 @@ export default function CoinsTable() {
 
   const useStyles = makeStyles({
     row: {
-      backgroundColor: "#16171a",
+      backgroundColor: "black",
       cursor: "pointer",
       "&:hover": {
         backgroundColor: "#131111",

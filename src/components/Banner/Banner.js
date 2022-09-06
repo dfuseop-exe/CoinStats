@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 
 const useStyles = makeStyles((theme) => ({
   banner: {
-    backgroundImage: "url(./banner2.jpg)",
+    
   },
   bannerContent: {
     height: 400,
@@ -34,14 +34,14 @@ function Banner() {
       <Container className={classes.bannerContent}>
         <div className={classes.tagline}>
           <Typography
-            variant="h2"
+            variant="h4"
             style={{
               fontWeight: "bold",
               marginBottom: 15,
               fontFamily: "Montserrat",
             }}
           >
-            Coinstats
+            Best Coin Price Tracker in the Market
           </Typography>
           <Typography
             variant="subtitle2"
@@ -51,7 +51,7 @@ function Banner() {
               fontFamily: "Montserrat",
             }}
           >
-            Get all the Info regarding your favorite Crypto Currency
+            CoinStats Provides information about the most popular cryptocurrency 
           </Typography>
         </div>
         <Carousel />
